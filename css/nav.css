@@ -27,9 +27,12 @@
     font-size: 16px;
     border-radius: 4px;
     font-family: "HelveticaNeue";
+    padding-left: 20px;
 }
 .input-search::placeholder {
-    padding-left: 20px;
+    font-family: "HelveticaNeue";
+    color: #626262;
+    font-weight: 600;
 }
 /* setting */
 .setting__menu {
