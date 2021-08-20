@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: #373A3C;
+}
+/* nav */
+.nav__menu {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+    font-family: "HelveticaNeue";
+}
+.menu__link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav__img {
+    padding-right: 10px;
+}
+/* search */
+.input-search {
+    border: none;
+    outline: none;
+    height: 38px;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: "HelveticaNeue";
+}
+.input-search::placeholder {
+    padding-left: 20px;
+}
+/* setting */
+.setting__menu {
+    list-style: none;
+}
+.menu__link {
+    font-family: "HelveticaNeue";
+}
+/* отступы */
+.setting__img-user {
+    margin-right: 10px;
+}
+.setting__img-arrow {
+    margin-left: 10px;
+}
