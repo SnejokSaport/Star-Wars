@@ -1,4 +1,5 @@
 /* общая обертка */
+
 .slider {
     background-image: url(/img/slider/star-wars.jpg);
     height: 900px;
@@ -9,7 +10,9 @@
     flex-direction: column;
     align-items: center;
 }
+
 /* заголовок */
+
 .slider__title {
     position: absolute;
     font-size: 36px;
@@ -19,26 +22,32 @@
     padding-left: 600px;
     padding-bottom: 200px;
 }
+
 /* общий класс кнопок */
+
 .general-btn {
-    height: 38px;
     font-family: "HelveticaNeue";
     color: #fff;
     border: none;
     outline: none;
     border-radius: 4px;
+    padding: 8px 20px 8px 20px;
 }
+
 /* кнопка */
-.trailer {
-    width: 136px;
+
+.general-btn_bg-color_green {
     background: #8DD83D;
 }
+
 /* кнопка */
-.explore-games {
-    width: 148px;
+
+.general-btn_bg-color_gray {
     background: #686C6F;
 }
+
 /* обертка кнопок */
-.slider-wrapper__btn {
-    padding-left: 720px;
+
+.slider__wrapper-btn {
+    padding-left: 680px;
 }
