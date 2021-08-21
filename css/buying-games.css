@@ -1,0 +1,11 @@
+.buying-games {
+    background-image:url(/img/buying-games/Rectangle.jpg);
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+.buying-games__card {
+    width: 320px;
+    height: 420px;
+    border: 1px solid #8DD83D;
+}
