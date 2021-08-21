@@ -1,0 +1,10 @@
+@import 'font-face.css';
+@import 'nav.css';
+@import 'slider.css';
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

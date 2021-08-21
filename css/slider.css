@@ -1,0 +1,53 @@
+/* общая обертка */
+
+.slider {
+    background-image: url(/img/slider/star-wars.jpg);
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* заголовок */
+
+.slider__title {
+    position: absolute;
+    font-size: 36px;
+    color: #fff;
+    font-family: "HelveticaNeue";
+    font-weight: 600;
+    padding-left: 600px;
+    padding-bottom: 200px;
+}
+
+/* общий класс кнопок */
+
+.general-btn {
+    font-family: "HelveticaNeue";
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 8px 20px 8px 20px;
+}
+
+/* кнопка */
+
+.general-btn_bg-color_green {
+    background: #8DD83D;
+}
+
+/* кнопка */
+
+.general-btn_bg-color_gray {
+    background: #686C6F;
+}
+
+/* обертка кнопок */
+
+.slider__wrapper-btn {
+    padding-left: 680px;
+}
