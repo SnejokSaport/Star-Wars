@@ -1,11 +1,89 @@
 .buying-games {
-    background-image:url(/img/buying-games/Rectangle.jpg);
+    background-image: url(/img/buying-games/Rectangle.jpg);
+}
+
+.buying-games__wrapper {
+    text-align: center;
+}
+
+.buying-games__img {
+    padding-top: 60px;
+}
+
+.buying-games__title {
+    font-size: 48px;
+    font-family: "HelveticaNeue";
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.buying-games__subtitle {
+    font-size: 36px;
+    font-family: "HelveticaNeue";
+    color: #fff;
+    margin: 0;
+    padding-top: 10px;
+}
+
+/* карточки */
+
+.buying-games__wrapper-card {
     display: flex;
     justify-content: center;
-    gap: 64px;
+    gap: 43px;
+    padding-top: 40px;
+    padding-bottom: 162px;
 }
+
 .buying-games__card {
-    width: 320px;
-    height: 420px;
     border: 1px solid #8DD83D;
+    background: #fff;
+    color: #626262;
+}
+
+/* card */
+
+/* .buying-games__img-xbox {
+    padding-bottom: 16px;
+}
+
+.buying-games__img-mixer {
+    padding-bottom: 16px;
+}
+
+.buying-games__img-gold {
+    padding-bottom: 16px;
+} */
+/* текс карточек */
+.buying-games__text-title{
+    font-family: "HelveticaNeue";
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.buying-games__text-subtitle{
+    font-family: "HelveticaNeue";
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 13px;
+    color: #435766;
+}
+.buying-games__btn {
+    margin-top:20px;
+    margin-bottom: 27px;
+    padding: 20px 23px 20px 23px;
+    color: #fff;
+    background: #8DD83D;
+    font-family: "HelveticaNeue";
+    font-weight: 400;
+    border:none;
+    outline: none;
+    font-size: 17px;
+    width: 278px;
+}
+
+.buying-games__card-information {
+    padding-left: 20px;
 }
