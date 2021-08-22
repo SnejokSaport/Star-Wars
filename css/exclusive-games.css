@@ -19,8 +19,9 @@
 
 .exclusive-games__wrapper-card {
     display: flex;
-    align-items: center;
+    justify-content: center;
     padding-top: 30px;
+    gap: 20px;
 }
 .exclusive-games__card {
     background: #fff;
@@ -44,17 +45,6 @@
     font-weight: 600;
     padding-top: 16px;
     color: #435766;
+    margin-bottom: 40px;
 }
 
-/* кнопка каарточки */
-
-.exclusive-games__btn {
-    display: block;
-    font-family: "HelveticaNeue";
-    font-size: 16px;
-    color: #fff;
-    background: #8DD83D;
-    border: none;
-    outline: none;
-    padding: 20px 100px 20px 100px;
-}

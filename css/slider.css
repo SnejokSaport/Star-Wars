@@ -23,31 +23,6 @@
     padding-bottom: 200px;
 }
 
-/* общий класс кнопок */
-
-.general-btn {
-    font-family: "HelveticaNeue";
-    color: #fff;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    padding: 8px 20px 8px 20px;
-}
-
-/* кнопка */
-
-.general-btn_bg-color_green {
-    background: #8DD83D;
-}
-
-/* кнопка */
-
-.general-btn_bg-color_gray {
-    background: #686C6F;
-}
-
-/* обертка кнопок */
-
 .slider__wrapper-btn {
     padding-left: 680px;
 }
