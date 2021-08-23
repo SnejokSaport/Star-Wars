@@ -1,0 +1,33 @@
+/* основная обертка */
+
+.design-lab {
+    background-image: url(../img/design-lab/bg-img__design-lab.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+}
+
+/* обертка */
+
+.design-lab__wrapper-content {
+    padding-top: 114px;
+    justify-content: center;
+    padding-left: 167px;
+}
+
+/* текст контент */
+
+.design-lab__text-title {
+    font-size: 48px;
+    font-family: "HelveticaNeue";
+    color: #fff;
+}
+
+.design-lab__text-subtitle {
+    font-size: 24px;
+    font-family: "HelveticaNeue";
+    color: #fff;
+    padding-top: 9px;
+}
+
+/*  */
