@@ -1,0 +1,50 @@
+.general-btn {
+    display: inline-block;
+    font-family: "HelveticaNeue";
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 8px 20px 8px 20px;
+}
+
+.general-btn_size_lg {
+    padding: 20px 20px;
+    font-size: 16px;
+}
+
+.general-btn_full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.general-btn_bg-color_green {
+    background: #8DD83D;
+}
+
+.general-btn_bg-color_gray {
+    background: #686C6F;
+}
+
+/* design-lab */
+
+.design-lab_size_lg {
+    padding: 20px 50px 20px 50px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+}
+
+.design-lab_bg-color_gray {
+    background: #686C6F;
+}
+
+.design-lab_bg-color_green {
+    background: #8DD83D;
+}
+
+.design-lab_bg-wrapper {
+    padding-top: 57px;
+}

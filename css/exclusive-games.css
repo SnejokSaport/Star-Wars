@@ -1,0 +1,51 @@
+.exclusive-games {
+    background-image: url(../img/exclusive-games/title-img-rectangle.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* заголовок */
+
+.exclusive-games__title {
+    font-family: "HelveticaNeue";
+    font-size: 36px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 97px;
+}
+
+/* карточки */
+
+.exclusive-games__wrapper-card {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+    padding-bottom: 251px;
+}
+.exclusive-games__card {
+    background: #fff;
+}
+.exclusive-games__content {
+    padding: 21px 21px 21px 21px;
+}
+/* текс карточки */
+
+.exclusive-games__text-title {
+    font-family: "HelveticaNeue";
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 22px;
+    color: #435766;
+}
+
+.exclusive-games__text-subtitle {
+    font-family: "HelveticaNeue";
+    font-size: 21px;
+    font-weight: 600;
+    padding-top: 16px;
+    color: #435766;
+    margin-bottom: 40px;
+}
+

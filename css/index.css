@@ -1,0 +1,14 @@
+@import 'font-face.css';
+@import 'nav.css';
+@import 'slider.css';
+@import 'buying-games.css';
+@import 'exclusive-games.css';
+@import 'button.css';
+@import 'design-lab.css';
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
